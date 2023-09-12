@@ -93,10 +93,6 @@ const arrayCuentas = [
   },
 ];
 
-
-
-
-
 let orderAccount = (accountArray, accountProperty) => {
   let temp = 0;
   for (let i = 0; i < accountArray.length; i++) {
@@ -118,3 +114,19 @@ console.log(orderAccount(arrayCuentas, "saldo"));
 
 // Desarrollar una función que ordene internamente de forma ascendente según la edad del titular de cada cuenta, la misma deberá retornar él array ordenado.
 console.log(orderAccount(arrayCuentas, "edadTitular"));
+
+
+// ordenar integrantes xD
+let intgrts = [
+  "Germán Fraire",
+  "Diana Galeano",
+  "Constanza  Isaza",
+  "Cristana Tumbajoy",
+  "Daniel Ruiz",
+  "Eduardo Luna",
+  "Beatriz Collin",
+  "Casseli Layza",
+];
+
+
+console.log(orderAsc(intgrts));
